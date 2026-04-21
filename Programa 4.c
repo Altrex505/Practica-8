@@ -34,8 +34,8 @@ int main ()
  break;
  case 4:
  printf("\tDividir\n");
- printf("Introduzca los números a dividir separad
- scanf("%d, %d",&uno, &dos);
+ printf("Introduzca los números a dividir separados por comas\n");
+scanf("%d, %d",&uno, &dos);
  printf("%d / %d = %.2lf\n", uno, dos, ((double)uno / dos));
  break;
  case 5:
